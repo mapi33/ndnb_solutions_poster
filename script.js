@@ -1,9 +1,6 @@
 
 const stackElements = (originalElement, occ, distance) => {
 
-
-	console.log("stackElements", originalElement);
-
 	let i = 0
 
 	while(i < occ) {

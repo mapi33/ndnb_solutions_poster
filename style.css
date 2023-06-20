@@ -1,4 +1,12 @@
+.poster-container {
+    width: 876px;
+    min-height: 524px;
+    margin: auto;
+}
 
+.poster {
+	position: relative;
+}
 
 .browser-back-container,.browser-stack-container {
     position: relative;
@@ -35,18 +43,22 @@
 .sheet-container {
 	position: relative;
 	left: 300px;
-	top:200px;
-	display: inline-block;
+	top:109px;
+	display: inline-flex;
 }
 
 .arrow-container {
     position: absolute;
-    top: 255px;
+    top: 225px;
     left: 198px;
 }
 
 
-@media only screen and (max-width: 768px)  {
+@media (max-width: 876px)  {
+
+	.poster-container {
+	    width: 584px;
+	}
 
 	.browser-stack-container {
 		left: 48px;
@@ -61,6 +73,19 @@
     rotate: 77deg;
     left: 20px;
 }
+}
 
+@media (max-width: 584px)  {
+
+.poster-container {
+    zoom:0.7;
+}
+
+
+@media (max-width: 350px)  {
+
+.poster-container {
+    zoom:0.5;
+}
 
 }

@@ -14,7 +14,7 @@
 <path d="M444 26.3257H156.876V73.0868H444V26.3257Z" fill="url(#pattern1)"/>
 </g>
 </g>
-<rect x="27" y="149" width="508" height="221" fill="#00FF19"/>
+<rect x="27" y="149" width="508" height="221" fill="#F4F6FC"/>
 <circle cx="526.079" cy="107.079" r="6.07894" fill="#B1B1B1"/>
 <defs>
 <filter id="filter0_d_170_1155" x="0.752763" y="0.149735" width="547.618" height="397.576" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -22,7 +22,6 @@
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-8.72532" dy="-8.72532"/>
 <feGaussianBlur stdDeviation="8.72532"/>
-<feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0.792157 0 0 0 0 0.792157 0 0 0 0 0.792157 0 0 0 0.25 0"/>
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_170_1155"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_170_1155" result="shape"/>
