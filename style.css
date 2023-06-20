@@ -1,7 +1,10 @@
 .poster-container {
     width: 876px;
-    min-height: 524px;
+    min-height: 578px;
     margin: auto;
+    background: #FFFFFF;
+    box-shadow: -10px -10px 20px rgba(202, 202, 202, 0.25), 10px 10px 20px rgba(202, 202, 202, 0.25);
+    border-radius: 10px;
 }
 
 .poster {
@@ -44,7 +47,7 @@
 	position: relative;
 	left: 300px;
 	top:109px;
-	display: inline-flex;
+	display: inline-block;
 }
 
 .arrow-container {
@@ -53,11 +56,23 @@
     left: 198px;
 }
 
+.google-sheets-brand {
+    position: relative;
+    bottom: 49px;
+    width: 288px;
+    right: -242px;
+}
+
+.google-sheets-brand img {
+	width: 100%;
+}
+
 
 @media (max-width: 876px)  {
 
 	.poster-container {
 	    width: 584px;
+	    min-height: 768px;
 	}
 
 	.browser-stack-container {
