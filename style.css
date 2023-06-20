@@ -1,0 +1,65 @@
+
+
+.browser-back-container,.browser-stack-container {
+    position: relative;
+}
+
+.mask {
+	position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.browser-mask {
+    width: 355px;
+    height: 203px;
+    top: 50px;
+    left: 27px;
+}
+
+
+.sheet-mask {
+    width: 508px;
+    height: 223px;
+    top: 148px;
+    left: 27px;
+}
+
+
+.browser-front, .sheet-front {
+    display: block;
+    max-width: 100%;
+}
+
+
+.sheet-container {
+	position: relative;
+	left: 300px;
+	top:200px;
+}
+
+.arrow-container {
+    position: absolute;
+    top: 255px;
+    left: 198px;
+}
+
+
+@media only screen and (max-width: 768px)  {
+
+	.browser-stack-container {
+		left: 48px;
+	}
+
+	.sheet-container {
+		left: 0;
+		top: 300px;
+	}
+
+	.arrow-container {
+    rotate: 77deg;
+    left: 20px;
+}
+
+
+}
